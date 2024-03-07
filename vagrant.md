@@ -11,7 +11,9 @@
   vagrant ssh
 
   # Stop the machine
-  vagrant halt
+  vagrant halt 
 ```
 
 ![Vagrant](images/vagrant.png)
+
+[Visit here to download and install Vagrant](https://developer.hashicorp.com/vagrant/install)
