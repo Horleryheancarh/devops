@@ -117,3 +117,9 @@ terraform destroy
 ![destroy](./images/tdestroyed.png)
 
 ![destroy](./images/tdestroy.png)
+
+### State Files
+
+State files provide a vital link between the configurations defined in Terraform files and the real-world resources they represent. By maintaining a record of the actual resources provisioned based on these configurations, state files enable Terraform to accurately track the state of the infrastructure. Additionally, they store metadata crucial for understanding resource dependencies, attributes, and relationships. This information is instrumental in Terraform's ability to determine changes needed to achieve the desired infrastructure state. Moreover, by storing state locally or remotely, such as in Terraform Cloud or AWS S3, state files enhance performance, particularly for managing large-scale infrastructures. Overall, state files play a pivotal role in facilitating safe, efficient, and reliable infrastructure management practices. It's imperative to handle state files with care, ensuring proper versioning, backup procedures, and access controls to maintain the integrity of the infrastructure management workflow.
+
+### [Link to terraform code](https://github.com/Horleryheancarh/terraform-IAC)
